@@ -1,0 +1,12 @@
+risk_profiler:
+  min_support: 0.05
+  min_confidence: 0.5
+
+drift_detection:
+  threshold: 0.3
+  window_size: 2
+
+output:
+  results_dir: "results"
+  figures_dir: "results/figures"
+  figure_dpi: 300
