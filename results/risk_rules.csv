@@ -1,0 +1,44 @@
+rule,confidence,support,n_matches
+demands_numeric=1 & domain_academic=0,0.8478260869565217,0.115,46
+demands_numeric=1 & has_temporal_ref=0,0.7931034482758621,0.0725,29
+demands_numeric=1 & asks_for_list=0,0.7631578947368421,0.095,38
+demands_numeric=1,0.75,0.22,88
+demands_numeric=1 & asks_about_person=0,0.75,0.22,88
+demands_numeric=1 & domain_finance=0,0.75,0.22,88
+demands_numeric=1 & domain_medical=0,0.75,0.22,88
+asks_for_list=1,0.74,0.125,50
+question_type=enumeration,0.74,0.125,50
+demands_numeric=1 & asks_for_list=1,0.74,0.125,50
+has_temporal_ref=1 & asks_for_list=1,0.74,0.125,50
+asks_about_person=0 & asks_for_list=1,0.74,0.125,50
+asks_for_list=1 & domain_finance=0,0.74,0.125,50
+asks_for_list=1 & domain_medical=0,0.74,0.125,50
+has_temporal_ref=1 & domain_academic=0,0.7368421052631579,0.2375,95
+question_type=quantity,0.7333333333333333,0.075,30
+specificity_bin=high,0.7288135593220338,0.1475,59
+demands_numeric=1 & has_temporal_ref=1,0.7288135593220338,0.1475,59
+has_temporal_ref=1 & asks_about_person=1,0.725,0.1,40
+specificity_bin=medium,0.719626168224299,0.2675,107
+has_temporal_ref=1,0.708029197080292,0.3425,137
+has_temporal_ref=1 & domain_medical=0,0.708029197080292,0.3425,137
+demands_numeric=1 & demands_specificity=0,0.704225352112676,0.1775,71
+has_temporal_ref=1 & domain_finance=0,0.704,0.3125,125
+has_temporal_ref=1 & asks_about_person=0,0.7010309278350515,0.2425,97
+demands_numeric=0 & has_temporal_ref=1,0.6923076923076923,0.195,78
+has_temporal_ref=1 & asks_for_list=0,0.6896551724137931,0.2175,87
+has_temporal_ref=1 & demands_specificity=0,0.675,0.3,120
+asks_for_list=0 & domain_academic=1,0.6666666666666666,0.06,24
+domain_academic=1,0.6491228070175439,0.1425,57
+demands_specificity=0 & domain_academic=1,0.6491228070175439,0.1425,57
+domain_academic=1 & domain_finance=0,0.6491228070175439,0.1425,57
+domain_academic=1 & domain_medical=0,0.6491228070175439,0.1425,57
+demands_numeric=1 & domain_academic=1,0.6428571428571429,0.105,42
+has_temporal_ref=1 & domain_academic=1,0.6428571428571429,0.105,42
+asks_about_person=0 & domain_academic=1,0.6428571428571429,0.105,42
+demands_specificity=0 & asks_for_list=1,0.6363636363636364,0.0825,33
+asks_for_list=1 & domain_academic=1,0.6363636363636364,0.0825,33
+length_bin=medium,0.6,0.4375,175
+question_type=other,0.5784313725490197,0.255,102
+tree_feature=has_temporal_ref & importance=0.48,0.48059366068215903,0.0,0
+tree_feature=demands_numeric & importance=0.27,0.265113312951795,0.0,0
+tree_feature=length_bin_medium & importance=0.24,0.2439520536926188,0.0,0
